@@ -18,10 +18,13 @@ export const SCcontainer = styled.div`
             .barChild {
                 display: inline-block;
                 background: #4285f4;
-                width: 20px;
+                width: 100%;
                 margin-right: 3px;
                 color: #fff;
-                background-color: darkseagreen
+                background-color: darkseagreen;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }   
         }
     }

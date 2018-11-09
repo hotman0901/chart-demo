@@ -12,6 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@antv/data-set": "^0.10.1",
+    "@antv/g2": "^3.3.4",
+    "@icedesign/container": "^0.1.7",
+    "bizcharts": "^3.2.5-beta.4",
     "body-parser": "^1.18.3",
     "compression": "^1.7.3",
     "d3": "^5.7.0",
@@ -20,6 +24,7 @@
     "i18next": "^12.0.0",
     "i18next-express-middleware": "^1.4.1",
     "i18next-node-fs-backend": "^2.1.0",
+    "invariant": "^2.2.4",
     "is-node": "^1.0.2",
     "next": "^7.0.2",
     "next-redux-wrapper": "^2.0.0",
@@ -36,7 +41,8 @@
     "styled-components": "^4.0.2",
     "styled-normalize": "^8.0.2",
     "superagent": "^4.0.0-beta.5",
-    "universal-cookie-express": "^3.0.4"
+    "universal-cookie-express": "^3.0.4",
+    "warning": "^4.0.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.1.2",
