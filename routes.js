@@ -1,6 +1,7 @@
 const routes = () => {
     return {
-        '/': { page: '/' }
+        '/': { page: '/' },
+        '/map': { page: '/map' }
     };
 };
 

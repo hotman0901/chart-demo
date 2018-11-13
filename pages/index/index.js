@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 // import Bar from '../../components/bar';
 // import Line from '../../components/line';
 import BizCharts from '../../components/bizCharts';
+import Echarts from '../../components/echarts';
 
 
 export default class Index extends Component {
@@ -16,7 +17,8 @@ export default class Index extends Component {
                 {/* <Bar /> */}
                 {/* <Line /> */}
                 {/* <Scale /> */}
-                <BizCharts />
+                {/* <BizCharts /> */}
+                <Echarts />
             </div>
         );
     }
