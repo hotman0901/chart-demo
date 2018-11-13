@@ -1,8 +1,11 @@
 import { combineEpics } from 'redux-observable';
 import coinmarketcapEpics from './coinmarketcap';
+import pieEpic from './pie';
+
 
 const epics = combineEpics(
-    ...coinmarketcapEpics
+    ...coinmarketcapEpics,
+    ...pieEpic
 );
 
 export default epics;

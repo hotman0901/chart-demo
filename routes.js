@@ -1,7 +1,9 @@
 const routes = () => {
     return {
         '/': { page: '/' },
-        '/map': { page: '/map' }
+        '/map': { page: '/map' },
+        '/pie': { page: '/pie' },
+
     };
 };
 

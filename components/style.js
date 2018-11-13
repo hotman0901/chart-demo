@@ -45,7 +45,6 @@ export const SCcontainer = styled.div`
     }
 `;
 
-
 export const SCEchair = styled.div`
     &.echartsWrapper {
         ${'' /* display: flex;
@@ -61,6 +60,18 @@ export const SCEchair = styled.div`
             margin-bottom: 20px;
             min-height: 450px;
             width: 100%;
+        }
+    }
+
+    &.pie {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height: 100vh;
+        margin: 0 auto;
+        > * {
+            width: 100vw;
+            height: 100vh;
         }
     }
 `;

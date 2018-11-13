@@ -186,7 +186,7 @@ const Echarts = () => {
                 baseOption: {
                     title: {
                         text: '折線堆疊圖',
-                        x: 'center'
+                        // x: 'center'
                     },
                     tooltip: {
                         trigger: 'axis'

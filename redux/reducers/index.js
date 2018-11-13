@@ -1,8 +1,11 @@
 import { combineReducers } from 'redux';
 import coinmarketcap from './coinmarketcap';
+import pie from './pie';
+
 
 const rootReducer = combineReducers({
-    coinmarketcap
+    coinmarketcap,
+    pie
 });
 
 export default rootReducer;
